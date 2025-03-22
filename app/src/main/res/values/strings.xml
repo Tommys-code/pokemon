@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Pokemon</string>
+
+    <string name="main_title">MainScreen</string>
+    <string name="detail_screen_title">DetailScreen</string>
+    <string name="search_hint">Please input pokemon species</string>
+    
+    <string name="pokemon_species_name">SpeciesName: %s</string>
+    <string name="pokemon_capture_rate">CaptureRate: %s</string>
+    <string name="pokemon_names">Pokenmons:</string>
+    <string name="no_data">No more data.</string>
+    <string name="pokemon_name">Name: %s</string>
+    <string name="pokemon_abilities">Abilities: %s</string>
+</resources>
