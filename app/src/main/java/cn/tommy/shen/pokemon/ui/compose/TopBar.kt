@@ -12,6 +12,7 @@ import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.systemBars
 import androidx.compose.foundation.layout.windowInsetsBottomHeight
+import androidx.compose.foundation.layout.windowInsetsTopHeight
 import androidx.compose.material3.CircularProgressIndicator
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
@@ -36,7 +37,7 @@ fun TopBar(
             .background(Pink80)
     ) {
         Spacer(
-            Modifier.windowInsetsBottomHeight(WindowInsets.systemBars)
+            Modifier.windowInsetsTopHeight(WindowInsets.systemBars)
         )
         Box(
             modifier = Modifier
